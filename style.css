@@ -46,6 +46,7 @@ html {
 body{
     background-color:var(--Cream) ;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem 0 2rem 0;
@@ -129,6 +130,11 @@ button {
 
 button:hover {
     background-color: hsl(157, 51%, 18%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--DarkCyan);
 }
 
 @media (min-width: 700px){
