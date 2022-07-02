@@ -124,5 +124,37 @@ button {
     border-radius: 0.5rem;
     border: 0;
     cursor: pointer;
+    transition: all 1000ms ease-in-out;
+}
 
+button:hover {
+    background-color: hsl(157, 51%, 18%);
+}
+
+@media (min-width: 700px){
+
+    body {
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        width: 620px;
+        border-radius: 0.5rem;
+    }
+
+    .logo {
+        background: url(./images/image-product-desktop.jpg) no-repeat center;
+        background-size: 100%;
+        object-fit: cover;
+        width: 50%;
+        height: auto;
+        border-bottom-left-radius: 0.5rem;
+        border-top-right-radius: 0;
+    }
+
+    .main-container {
+        width: 50%;
+        
+    }
 }
