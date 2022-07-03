@@ -42,7 +42,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [The Odin Project](https://theodinproject.org) - This helped me to with my flexbox problems.
+- [The Odin Project](https://theodinproject.org) - This helped me with my flexbox problems.
 
 ## Author
 
